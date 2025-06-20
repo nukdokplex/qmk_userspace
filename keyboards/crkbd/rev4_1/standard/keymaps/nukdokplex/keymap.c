@@ -76,15 +76,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤   ├─────────┼─────────┼─────────┼─────────┼─────────┼────┼────┤
 //    │ RM_SPDU │  lgui   │  lalt   │  lctl   │  lsft   │   no    │ RM_TOGG │   │   no    │ MS_LEFT │ MS_DOWN │  MS_UP  │ MS_RGHT │ no │ no │
 //    ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼─────────┘   └─────────┼─────────┼─────────┼─────────┼─────────┼────┼────┤
-//    │ RM_SPDD │   no    │   no    │   no    │   no    │   no    │                       │ MS_WHLL │ MS_DOWN │ MS_WHLU │ MS_WHLR │ no │ no │
+//    │ RM_SPDD │   no    │   no    │   no    │   no    │   no    │                       │ MS_WHLL │ MS_WHLD │ MS_WHLU │ MS_WHLR │ no │ no │
 //    └─────────┴─────────┴─────────┴─────────┼─────────┼─────────┼─────────┐   ┌─────────┼─────────┼─────────┼─────────┴─────────┴────┴────┘
-//                                            │   no    │   no    │   no    │   │ MS_BTN1 │ MS_BTN2 │ MS_BTN3 │
+//                                            │   no    │   no    │   no    │   │ MS_BTN2 │ MS_BTN1 │ MS_BTN3 │
 //                                            └─────────┴─────────┴─────────┘   └─────────┴─────────┴─────────┘
 [3] = LAYOUT_split_3x6_3_ex2(
   RM_HUED , RM_HUEU , RM_SATD , RM_SATU , RM_VALD , RM_VALU , RM_NEXT ,     KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO , KC_NO,
   RM_SPDU , KC_LGUI , KC_LALT , KC_LCTL , KC_LSFT , KC_NO   , RM_TOGG ,     KC_NO   , MS_LEFT , MS_DOWN , MS_UP   , MS_RGHT , KC_NO , KC_NO,
-  RM_SPDD , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,                         MS_WHLL , MS_DOWN , MS_WHLU , MS_WHLR , KC_NO , KC_NO,
-                                          KC_NO   , KC_NO   , KC_NO   ,     MS_BTN1 , MS_BTN2 , MS_BTN3
+  RM_SPDD , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,                         MS_WHLL , MS_WHLD , MS_WHLU , MS_WHLR , KC_NO , KC_NO,
+                                          KC_NO   , KC_NO   , KC_NO   ,     MS_BTN2 , MS_BTN1 , MS_BTN3
 ),
 
 //    ┌────┬───┬───┬───┬───┬───┬────┐   ┌────┬────┬──────┬──────┬──────┬──────┬────┐
